@@ -7,6 +7,7 @@
 
 body {
   font-family: "Karla", sans-serif;
+  background-color: #e5eff5;
 }
 
 .wrapper {
@@ -35,11 +36,14 @@ body {
 
 .top-box {
   padding: 30px;
+  background-color: #fff;
+  border-radius: 12px 12px 0px 0px;
 }
 
 .top-box h1 {
   color: #2ab2af;
   padding-bottom: 15px;
+  font-size: 26px;
 }
 
 .top-box h3 {
@@ -82,6 +86,7 @@ body {
 .bottom-box .bottom-flex .bottom-left span {
   color: #fff;
   font-size: 28px;
+  font-weight: bold;
 }
 
 .bottom-box .bottom-flex .bottom-left p {

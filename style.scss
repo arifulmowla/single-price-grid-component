@@ -12,6 +12,7 @@ $GrayishBlue: hsl(218, 22%, 67%);
 
 body {
   font-family: "Karla", sans-serif;
+  background-color: $LightGray;
 }
 
 .wrapper {
@@ -36,10 +37,13 @@ body {
 
 .top-box {
   padding: 30px;
+  background-color: #fff;
+  border-radius: 12px 12px 0px 0px;
 
   h1 {
     color: $Cyan;
     padding-bottom: 15px;
+    font-size: 26px;
   }
 
   h3 {
@@ -77,6 +81,7 @@ body {
       span {
         color: #fff;
         font-size: 28px;
+        font-weight: bold;
       }
 
       p {
